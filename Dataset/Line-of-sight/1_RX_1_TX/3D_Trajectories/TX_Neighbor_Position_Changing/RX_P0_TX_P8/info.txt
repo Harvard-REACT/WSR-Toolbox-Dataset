@@ -1,0 +1,14 @@
+Channel: 108
+Moving Robot : robot_rx
+     position: P8
+Static Robot : robot_tx
+    position: 
+      x: 2.56492137909
+      y: 0.0453554429114
+      z: 0.966713786125
+    orientation: 
+      x: -0.000689361593686
+      y: 0.0225515458733
+      z: -0.868660032749
+      w: -0.494894623756
+

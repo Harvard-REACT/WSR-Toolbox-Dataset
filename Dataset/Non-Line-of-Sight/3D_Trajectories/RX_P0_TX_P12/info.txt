@@ -1,0 +1,6 @@
+Channel 108,
+RX position : robot_sar
+TX position: robot_tx
+	x: 5.5
+	y: 0.0
+	z: 0.97

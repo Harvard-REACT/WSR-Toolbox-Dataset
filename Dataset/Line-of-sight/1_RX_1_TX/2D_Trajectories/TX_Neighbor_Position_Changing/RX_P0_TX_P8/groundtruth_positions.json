@@ -1,0 +1,84 @@
+{
+  "channel": {
+    "desc": "wireless channel used in the 5.0 GHz range",
+    "value": 108
+  },
+  "true_rx_position":{
+    "desc" : "Position of RX_SAR robot as per the dataset map",
+    "value": "P0"
+  },
+  "true_tx_positions":
+  {
+    "desc":"True groundtruth positions of TX for checking accuracy",
+    "value":
+    {
+      "tx0":{
+        "position":{ 
+        "x": 0,
+        "y": 0,
+        "z": 0
+        },
+        "orientation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 0
+        }
+      },
+      "tx1":{
+          "value":"P8",
+          "position":{ 
+          "x": 2.5663485527,
+          "y": 0.040031965822,
+          "z": 0.966060161591
+          },
+          "orientation": {
+            "x": 0.00346698937938,
+            "y":0.0321588069201,
+            "z": -0.949966728687,
+            "w": -0.310672134161
+          }
+        },
+        "tx2":{
+          "position":{ 
+          "x": 0,
+          "y": 0,
+          "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 0
+          }
+        },
+        "tx3":{
+          "position":{ 
+          "x": 0,
+          "y": 0,
+          "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 0
+          }
+        },
+        "tx4":{
+          "position":{ 
+          "x": 0,
+          "y": 0,
+          "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 0
+          }
+        }
+    }
+  }
+}
+

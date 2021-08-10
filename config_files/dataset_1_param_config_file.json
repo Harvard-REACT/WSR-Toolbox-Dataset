@@ -279,7 +279,7 @@
     },
     "trajectory_type": {
         "desc" : "Trajectory of robots (2D or 3D). Impacts AOA error calculation",
-        "value": "2D"
+        "value": "3D"
     },
     "sub_sample_channel_data": {
         "desc": "flag for enabling subsampling of channle data to reduce packet count",
@@ -293,6 +293,6 @@
     },
     "get_mean_pose_RX": {
         "desc": "Get mean pose of the RX along its sub-trajectory",
-        "value": false
+        "value": true
     }
 }

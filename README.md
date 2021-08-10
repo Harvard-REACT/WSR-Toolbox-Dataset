@@ -13,29 +13,28 @@
 </div>
 <p>&nbsp;</p>
 
-# WiFi-Based  Relative  Bearing  Sensor
-
-WiFi-Sensor-for-Robotics (WSR) toolbox is an open source library, that enables robots in a team to obtain relative bearing to each other by analyzing the phase of their communicated wireless signals as they traverse the environment. Importantly, this capability can be used in non-line-of-sight (NLOS) or visually degraded environements to recover relative spatial positioning information between robots with implications for localization, networking and security amongst others. This toolbox is designed for distributed deployment and real-time operation on robotic platforms using commodity hardware.
-
-![Paper](https://github.com/Harvard-REACT/WSR-Toolbox/blob/main/figs/Paper_logo.png?raw=true)
-
 # Testbed area
 The total testbed area is approx 150 sq. meters and comprises of six separate locations. These include the main testbed with motion capture system and five locations that  are  in  NLOS.  The  locations  are  general  office areas  and include  like  chairs,  tables,  glass  door,  electronics,  metalshelves,  etc.
 
 
 # Dataset-1
- This includes data  samples  across  a  total  of  ten positions  of  receiving (RX)  robot  arranged  in  a  grid  which  are at  a  minimum  distance  of  2.5m  from  a  LOS  transmitting (TX) robot  position. For  NLOS, TX robots  are  placed at  different  positions  in  adjacent  office  spaces.
+ This includes data  samples  across  a  total  of  ten positions  of  receiving (RX)  robot  arranged  in  a  grid  which  are at  a  minimum  distance  of  2.5m  from  a  LOS  transmitting (TX) robot  position. For  NLOS, TX robots  are  placed at  different  positions  in  adjacent  office  spaces. A total of 600 data samples were collected for this dataset.
 
 ![Dataset-1-samples](figs/Dataset-1.png)
 
+## AOA accuracy for 2D Trajectory
+![Dataset-1-AOA-accuracy-plot1](figs/Dataset_1_AOA_accuracy_plot_1.png)
+![Dataset-1-AOA-accuracy-plot1](figs/Dataset_1_AOA_accuracy_plot_2.png)
+
+
+## Localization performance
 
 
 
+# Dataset-2
+![Dataset-1-samples](https://github.com/Harvard-REACT/WSR-Toolbox/blob/main/figs/test_area_map.png?raw=true)
 
+The 2D motion would be corresponding to commonmotion  for  normal  ground  robots;  3D  hand-held  arbitrary motion  reflects  the  mobility  of  a  UAV. The  experiment  is  performed  in  two  scenarios:  Line-of-sight  (LOS)  and  Non-line-of-sight  (NLOS).  The  LOS experiments are all conducted on the right half of the test bed including positions 1 to 10. The NLOS ex-periments are carried out by putting the RX robot  in  the  testbed  with  TX  robots  in  other  rooms, occluded  by  a  wall,  at  positions  14,  15  and  16.
 
-
-Data sample locations : 
-
-![Testbed map](https://github.com/Harvard-REACT/WSR-Toolbox/blob/main/figs/test_area_map.png?raw=true)
 
 Note: Additional data samples in gitlab repo

@@ -22,10 +22,13 @@ The total testbed area is approx 150 sq. meters and comprises of six separate lo
 
 ![Dataset-1-samples](figs/Dataset-1.png)
 
-### AOA accuracy for 2D Trajectory
+## Performance evaluation for 2D Trajectory
 ![Dataset-1-AOA-accuracy-plot1](figs/Dataset_1_AOA_accuracy_plot_1.png)
 ![Dataset-1-AOA-accuracy-plot1](figs/Dataset_1_AOA_accuracy_plot_2.png)
 
+### Location-wise AOA accuracy for NLOS scenario
+The bearing angle i.e Angle-of-Arrival accuracy in NLOS using groundtruth and T265 Tracking camera trajectory:
+![NLOS_Set_B_AOA](figs/NLOS_Set_A_B_2D_Trajectory_AOA_Accuracy_Results.png)
 
 ### Localization performance for NLOS scenario
 The transmitting robot positions are assumed to be know. The receiving robot can localize itself using the bearing angle calculated from our framework. We use the profile variance metric discussed in [**Toolbox  Release:  A  WiFi-Based  Relative  Bearing  Sensor  for  Robotics**]() to reject outlying measurements. 
@@ -45,10 +48,6 @@ The profile variance metric conveys the confidence in AOA estimation. We filter 
   <img align="center" src="figs/Dataset-1-NLOS_accuracy_using_thresholding_camera_traj.png" width="400" alt="Localization NLOS accuracy with thresholding">
 </div>
 <p>&nbsp;</p>
-
-
-
-
 
 
 

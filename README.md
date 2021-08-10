@@ -22,9 +22,30 @@ The total testbed area is approx 150 sq. meters and comprises of six separate lo
 
 ![Dataset-1-samples](figs/Dataset-1.png)
 
-## AOA accuracy for 2D Trajectory
+### AOA accuracy for 2D Trajectory
 ![Dataset-1-AOA-accuracy-plot1](figs/Dataset_1_AOA_accuracy_plot_1.png)
 ![Dataset-1-AOA-accuracy-plot1](figs/Dataset_1_AOA_accuracy_plot_2.png)
+
+
+### Location-wise AOA accuracy for NLOS scenario:
+The transmitting robot positions are assumed to be know. The receiving robot can localize itself using the bearing angle calculated from our framework. We use the profile variance metric discussed in [**Toolbox  Release:  A  WiFi-Based  Relative  Bearing  Sensor  for  Robotics**]() to reject outlying measurements. 
+
+The localization accuracy for non-line-of-sight by directly using the data
+
+<div align="center">
+  <img align="center" src="figs/Dataset-1-NLOS_accuracy_gt_traj.png" width="400" alt="Localization NLOS accuracy gt">
+  <img align="center" src="figs/Dataset-1-NLOS_accuracy_camera_traj.png" width="400" alt="Localization NLOS accuracy">
+</div>
+<p>&nbsp;</p>
+
+The profile variance metric conveys the confidence in AOA estimation. We filter out "noisy" AOA estimates (highly impacted by signal multipath) using a variance threshold, which can be used to improve localization accuracy. About **x% of samples are rejected by this simple filtering method**
+
+<div align="center">
+  <img align="center" src="figs/Dataset-1-NLOS_accuracy_using_thresholding_gt_traj.png" width="400" alt="Localization NLOS accuracy gt with thresholding">
+  <img align="center" src="figs/Dataset-1-NLOS_accuracy_using_thresholding_camera_traj.png" width="400" alt="Localization NLOS accuracy with thresholding">
+</div>
+<p>&nbsp;</p>
+
 
 
 ## Localization performance

@@ -2,13 +2,13 @@
 
 <div align="center">
   <a href="https://react.seas.harvard.edu//">
-    <img align="left" src="figs/lab_logo.png" width="180" alt="REACT Lab and WiTech Lab">
+    <img align="left" src="https://github.com/Harvard-REACT/WSR-Toolbox/blob/main/figs/lab_logo.png?raw=true" width="180" alt="REACT Lab and WiTech Lab">
   </a>
   <a href="https://react.seas.harvard.edu/communication-sensor">
-    <img align="center" src="figs/toolbox_logo.png" width="350" alt="WSR Toolbox">
+    <img align="center" src="https://github.com/Harvard-REACT/WSR-Toolbox/blob/main/figs/toolbox_logo.png?raw=true" width="350" alt="WSR Toolbox">
   </a>
   <a href="https://www.seas.harvard.edu/">
-    <img align="right" src="figs/univ_logo.png" width="160" alt="SEAS Harvard and CMU">
+    <img align="right" src="https://github.com/Harvard-REACT/WSR-Toolbox/blob/main/figs/univ_logo.png?raw=true" width="160" alt="SEAS Harvard and CMU">
   </a>
 </div>
 <p>&nbsp;</p>
@@ -17,7 +17,7 @@
 
 WiFi-Sensor-for-Robotics (WSR) toolbox is an open source library, that enables robots in a team to obtain relative bearing to each other by analyzing the phase of their communicated wireless signals as they traverse the environment. Importantly, this capability can be used in non-line-of-sight (NLOS) or visually degraded environements to recover relative spatial positioning information between robots with implications for localization, networking and security amongst others. This toolbox is designed for distributed deployment and real-time operation on robotic platforms using commodity hardware.
 
-![Paper](figs/Paper_logo.png)
+![Paper](https://github.com/Harvard-REACT/WSR-Toolbox/blob/main/figs/Paper_logo.png?raw=true)
 
 # Testbed area
 The total testbed area is approx 150 sq. meters and comprises of six separate locations. These include the main testbed with motion capture system and five locations that  are  in  NLOS.  The  locations  are  general  office areas  and include  like  chairs,  tables,  glass  door,  electronics,  metalshelves,  etc.

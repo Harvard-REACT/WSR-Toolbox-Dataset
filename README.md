@@ -27,7 +27,7 @@ The total testbed area is approx 150 sq. meters and comprises of six separate lo
 ![Dataset-1-AOA-accuracy-plot1](figs/Dataset_1_AOA_accuracy_plot_2.png)
 
 
-### Location-wise AOA accuracy for NLOS scenario:
+### Localization performance for NLOS scenario
 The transmitting robot positions are assumed to be know. The receiving robot can localize itself using the bearing angle calculated from our framework. We use the profile variance metric discussed in [**Toolbox  Release:  A  WiFi-Based  Relative  Bearing  Sensor  for  Robotics**]() to reject outlying measurements. 
 
 The localization accuracy for non-line-of-sight by directly using the data
@@ -48,7 +48,7 @@ The profile variance metric conveys the confidence in AOA estimation. We filter 
 
 
 
-## Localization performance
+
 
 
 

@@ -294,5 +294,9 @@
     "get_mean_pose_RX": {
         "desc": "Get mean pose of the RX along its sub-trajectory",
         "value": true
+    },
+    "use_packet_id":{
+        "desc": "Match forward-reverse packets using packet id instead of timestamps",
+        "value": true
     }
 }

@@ -41,13 +41,19 @@ The localization accuracy for non-line-of-sight by directly using the data
 </div>
 <p>&nbsp;</p>
 
-The profile variance metric conveys the confidence in AOA estimation. We filter out "noisy" AOA estimates (highly impacted by signal multipath) using a variance threshold, which can be used to improve localization accuracy. About **x% of samples are rejected by this simple filtering method**
+The profile variance metric conveys the confidence in AOA estimation. We filter out "noisy" AOA estimates (highly impacted by signal multipath) using a variance threshold, which can be used to improve localization accuracy.
 
 <div align="center">
   <img align="center" src="figs/Dataset-1-NLOS_accuracy_using_thresholding_gt_traj.png" width="400" alt="Localization NLOS accuracy gt with thresholding">
   <img align="center" src="figs/Dataset-1-NLOS_accuracy_using_thresholding_camera_traj.png" width="400" alt="Localization NLOS accuracy with thresholding">
 </div>
 <p>&nbsp;</p>
+
+
+## Performance - Runtime tradeoff using different config parameters
+To achieve better online runtime, different parameters in the config file can be tweaked with minimal impact on AOA accuracy. The following plots compare the AOA accuracy for all onboard sensing using a) lower resolution of profile and b) Subsampling - using alternate data packets.
+
+![Performance - Runtime tradeoff](figs/Dataset-1-performance-runtime-tradeoff-1.png)
 
 
 

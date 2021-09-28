@@ -1,6 +1,0 @@
-uChannel 108,
-RX position : robot_sar
-TX position: robot_tx
-	 x: 2.35 
-	 y: -4.4
-	 z: 1.06

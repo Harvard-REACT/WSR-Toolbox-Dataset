@@ -51,16 +51,7 @@ The profile variance metric conveys the confidence in AOA estimation. We filter 
 
 
 ## Performance - Runtime tradeoff using different config parameters
-To achieve better online runtime, different parameters in the config file can be tweaked with minimal impact on AOA accuracy. The following plots compare the AOA accuracy for all onboard sensing using a) lower resolution of profile and b) Subsampling - using alternate data packets.
+To achieve better online runtime, different parameters in the config file can be tweaked with minimal impact on AOA accuracy. The following plots compare the AOA accuracy for all onboard sensing using a) lower resolution of profile and b) Subsampling - using alternate data packets. The defult config parameters use all the data packets to generate a profile with resolution 360 x 180.
 
 ![Performance - Runtime tradeoff](figs/Dataset-1-performance-runtime-tradeoff-1.png)
 
-
-
-# Dataset-2
-![Dataset-1-samples](https://github.com/Harvard-REACT/WSR-Toolbox/blob/main/figs/test_area_map.png?raw=true)
-
-The 2D motion would be corresponding to commonmotion  for  normal  ground  robots;  3D  hand-held  arbitrary motion  reflects  the  mobility  of  a  UAV. The  experiment  is  performed  in  two  scenarios:  Line-of-sight  (LOS)  and  Non-line-of-sight  (NLOS).  The  LOS experiments are all conducted on the right half of the test bed including positions 1 to 10. The NLOS ex-periments are carried out by putting the RX robot  in  the  testbed  with  TX  robots  in  other  rooms, occluded  by  a  wall,  at  positions  14,  15  and  16.
-
-
-Note: Additional data samples in gitlab repo

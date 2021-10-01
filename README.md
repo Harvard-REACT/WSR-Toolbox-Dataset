@@ -89,11 +89,11 @@ The directory structure is as follows:
 └── figs
 ```
 
-- config_files : Constains the configuration parameters used to process the data
-- 2D-Displacement_output_files : Processed output data in json format
-- 2D-Displacement_raw_data: Raw data files collected for each location of receiving robot (location 1 to 10) for a given position configuration of 3 Transmitting robots (A,B or C).
+- **config_files** : Contains the configuration parameters used to process the data
+- **2D-Displacement_output_files** : Processed output data in json format
+- **2D-Displacement_raw_data**: Raw data files collected for each location of receiving robot (location 1 to 10) for a given position configuration of 3 Transmitting robots (A,B or C).
 
-Each location directory (e.g) 0627_2D-multi-link_A_L10) contains the following raw file:
+Each location directory (e.g 0627_2D-multi-link_A_L10) contains the following raw file:
 
 ```
 ├── csi_rx_*.dat
@@ -107,11 +107,11 @@ Each location directory (e.g) 0627_2D-multi-link_A_L10) contains the following r
 
 ```
 
-- csi_rx* : The [CSI data](https://github.com/Harvard-REACT/WSR-Toolbox/wiki/System-Architecture#input-data-streams) file collected by a receiving robot
-- csi_tx* : The CSI data file simultanesouly collected on all transmitting robots
+- **csi_rx\*** : The [CSI data](https://github.com/Harvard-REACT/WSR-Toolbox/wiki/System-Architecture#input-data-streams) file collected by a receiving robot
+- **csi_tx\*** : The CSI data file simultanesouly collected on all transmitting robots
 - rx_trajectory* : Groundtruth [displacement](https://github.com/Harvard-REACT/WSR-Toolbox/wiki/System-Architecture#input-data-streams) of receiving robot obtained using optitrack motion capture system.
-- t265_rx_trajectory* : Estimated displacement of the receiving robot obtained using VIO sensor ([Intel t265 tracking camera](https://github.com/IntelRealSense/librealsense/blob/master/doc/t265.md)).
-- odom_rx_trajectory* : Estimated displacement using robot odometer.
+- **t265_rx_trajectory\*** : Estimated displacement of the receiving robot obtained using VIO sensor ([Intel t265 tracking camera](https://github.com/IntelRealSense/librealsense/blob/master/doc/t265.md)).
+- **odom_rx_trajectory\*** : Estimated displacement using robot odometer.
 
 
 ## Performance evaluation for 2D Trajectory

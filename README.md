@@ -29,7 +29,7 @@ The transmitting robot positions are assumed to be know. The receiving robot can
 
 Coming soon!!
 
-**Additional results for the dataset are available at our [Wiki Page](https://github.com/Harvard-REACT/WSR-Toolbox/wiki/Experiment-Results)**
+**Additional results for the dataset are available at our [Wiki Page](https://github.com/Harvard-REACT/WSR-Toolbox/wiki/Relative-Bearing-Accuracy)**
 
 ## Citation
 If this dataset is is useful for your research publications, please cite our work.
